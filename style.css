@@ -30,7 +30,6 @@ body{
     margin: 3px;
 }
 .navigation_itens{
-    margin: 5px;
     width: 24px;
     height: 24px;
 }
@@ -51,6 +50,7 @@ body{
 #navigation_box{
     padding: 10px;
     display: flex;
+    margin-top: 60px;
 }
 #buttons_navigation{
     background-color: #DDDDDD;
@@ -58,4 +58,27 @@ body{
 #buttons_navigationPage{
     height: 40px;
     display: flex;
+    justify-content: space-around;
+}
+.title_table{
+    width: 70px;
+}
+.empty{
+    width: 30px;
+    background-color: #DDDDDD;
+}
+th{
+    background-color: #DDDDDD;
+    border: solid grey;
+}
+td{
+    border: solid grey;
+}
+#navbar_main{
+    display: flex;
+    justify-content: space-around;
+}
+#div_main2{
+    margin-left: 300px;
+    margin-top: 60px;
 }
