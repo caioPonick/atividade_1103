@@ -19,8 +19,7 @@ body{
     width: 100%;
 }
 .button{
-    width: 30px;
-    height: 10px;
+
     display: flex;
     align-items: center;
     background-color: #DDDDDD;
@@ -51,4 +50,12 @@ body{
 }
 #navigation_box{
     padding: 10px;
+    display: flex;
+}
+#buttons_navigation{
+    background-color: #DDDDDD;
+}
+#buttons_navigationPage{
+    height: 40px;
+    display: flex;
 }
